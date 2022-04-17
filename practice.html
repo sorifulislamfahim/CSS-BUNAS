@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+    <style>
+        .photo-frame{
+            border:10px solid hsla(0, 93%, 27%, 0.898);
+            width: 500px;
+            height: 500px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+        .photo img{
+            width: 500px;
+            height: 500px;
+        }
+        .photo-details{
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            top: 0;
+            display: none;
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(218, 165, 32, 0.7);
+        }
+        .photo-frame:hover .photo-details h3{
+            color: white;
+            font-weight: 900;
+            font-style: italic;
+            text-align: center;
+            font-size: 30px;
+            background-color: aqua;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+            font-size: 20px;
+        }
+        .photo-frame:hover .photo img{
+            transform: scale(1.2);
+            transition: transform 4s;
+        }
+        .photo-album{
+            margin: 50px;
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img2.JPG" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Soriful Islam Fahim</h3>
+                <p>Hello Gyes, I am Soriful Islam Fahim, I staduate at Habigonj Polytechmic institute. I want to be an Software Enginear. I CSE Student </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img2.JPG" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Soriful Islam Fahim</h3>
+                <p>Hello Gyes, I am Soriful Islam Fahim, I staduate at Habigonj Polytechmic institute. I want to be an Software Enginear. I CSE Student </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img2.JPG" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Soriful Islam Fahim</h3>
+                <p>Hello Gyes, I am Soriful Islam Fahim, I staduate at Habigonj Polytechmic institute. I want to be an Software Enginear. I CSE Student </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img2.JPG" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Soriful Islam Fahim</h3>
+                <p>Hello Gyes, I am Soriful Islam Fahim, I staduate at Habigonj Polytechmic institute. I want to be an Software Enginear. I CSE Student </p>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img2.JPG" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>Soriful Islam Fahim</h3>
+                <p>Hello Gyes, I am Soriful Islam Fahim, I staduate at Habigonj Polytechmic institute. I want to be an Software Enginear. I CSE Student </p>
+
+            </div>
+        </div>
+    </section>
+</body>
+</html>

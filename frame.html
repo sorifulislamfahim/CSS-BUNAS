@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frame</title>
+    <style>
+       
+        .photo-frame{
+            border: 10px solid yellow;
+            width: 500px;
+            border-radius: 10px;
+            height: 230px;
+            position: relative;
+            overflow: hidden;
+        }
+        .photo-frame .photo img{
+            width: 500px;
+        }
+        .photo-details{
+            position: absolute;
+            width: 500px;
+            height: 230px;
+            top: 0;
+            display: none;
+        }
+        .photo-details button{
+            background-color: red;
+            padding: 10px 20px;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            text-align: end;
+            font-style: italic;
+            font-weight: 800;
+
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(218, 165, 32, 0.5);
+        }
+        .photo-frame:hover .photo-details h1{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+        }
+        .photo-frame:hover .photo img{
+            transform: skew(180deg);
+            transition: transform 3s;
+        }
+        .photo-album{
+            margin: 50px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Book</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="image/img1.jpg" alt="">
+            </div>
+            <div class="photo-details">
+                <h1>FahimJannat</h1>
+                <p>A love letter is an expression of love in written form. However delivered, the letter may be anything from a short and simple message of love to a lengthy explanation and description of feelings.</p>
+                <button>Love</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
